@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    background-image: url(../imgs/wallpaper-math-5-1-scaled.jpg);
+    background-size: cover;
+}
+
+.box {
+    aspect-ratio: 1/1;
+}
+
+#box1,
+#box2 {
+    font-size: 100px;
+    color: black;
+    background-image: url(../imgs/kisspng-dice-dominoes-bunco-clip-art-dice-face-5aaad1954137c1.9204867715211442132671.jpg);
+    background-size: cover;
+    border-radius: 60px;
+}
+
+.fa-angle-down {
+    animation: rotate 3s ease-in-out infinite;
+
+}
+
+.win {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+
+@keyframes rotate {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
